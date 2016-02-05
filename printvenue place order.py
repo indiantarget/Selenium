@@ -50,10 +50,10 @@ driver.find_element_by_xpath("/html/body/div[3]/div/div/div/div[1]/div/div/div[2
 
 # Login Details
 email = driver.find_element_by_xpath("/html/body/div[2]/div/div/div[1]/form/div[2]/div/div[1]/div[1]/div[1]/fieldset/div[2]/input")
-email.send_keys("rahul.mehta@printvenue.com")
+email.send_keys("User Mail Id")
 driver.find_element_by_xpath("/html/body/div[2]/div/div/div[1]/form/div[2]/div/div[1]/div[1]/div[1]/fieldset/div[3]/input[1]").click()
 password = driver.find_element_by_xpath("/html/body/div[2]/div/div/div[1]/form/div[2]/div/div[1]/div[1]/div[1]/fieldset/div[3]/div[2]/input")
-password.send_keys("123456789")
+password.send_keys("Use Password")
 driver.find_element_by_xpath("/html/body/div[2]/div/div/div[1]/form/div[2]/div/div[1]/div[1]/div[1]/fieldset/div[4]/input").click()
 time.sleep(10)
 
